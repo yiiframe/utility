@@ -17,10 +17,19 @@
         "ext-libxml": "*",
         "ext-simplexml": "*",
         "ext-json": "*",
-        "yiisoft/yii2": "~2.0.20"
+        "yiisoft/yii2": "~2.0.20",
+        "yiisoft/yii2-httpclient": "~2.0.11",
+        "imangazaliev/didom": "~1.14.1",
+        "sabberworm/php-css-parser": "~8.3.0",
+        "phpoffice/phpspreadsheet": "~1.8.1",
+        "guzzlehttp/guzzle": "~6.3.3"
     },
     "require-dev": {
-        "phpunit/phpunit": "~8.2.0"
+        "yiisoft/yii2-faker": "~2.0.4",
+        "phpunit/phpunit": "~8.2.0",
+        "nikic/php-parser": "~4.2.2",
+        "jdorn/sql-formatter": "dev-master",
+        "roave/security-advisories": "dev-master"
     },
     "repositories": [
         {
