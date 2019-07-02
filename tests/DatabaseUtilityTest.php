@@ -1,10 +1,9 @@
 <?php declare(strict_types=1);
 
-namespace Casoa\Yii\Tests;
+namespace Casoa\Yii\Utility\Tests;
 
 use Yii;
-use Casoa\Yii\DatabaseUtility;
-use yii\db\mysql\ColumnSchema;
+use Casoa\Yii\Utility\DatabaseUtility;
 
 class DatabaseUtilityTest extends TestCase
 {

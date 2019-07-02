@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace Casoa\Yii\Tests;
+namespace Casoa\Yii\Utility\Tests;
 
 use ReflectionClass;
 use Yii;

@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace Casoa\Yii;
+namespace Casoa\Yii\Utility;
 
 use Yii;
 use yii\db\ColumnSchema;

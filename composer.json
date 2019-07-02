@@ -30,17 +30,20 @@
     ],
     "autoload": {
         "psr-4": {
-            "Casoa\\Yii\\": "src"
+            "Casoa\\Yii\\Utility\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Casoa\\Yii\\Tests\\": "tests"
+            "Casoa\\Yii\\Utility\\Tests\\": "tests"
         }
     },
     "extra": {
         "branch-alias": {
             "dev-master": "1.0.x-dev"
         }
+    },
+    "scripts": {
+        "test": "composer dump-autoload && php vendor/phpunit/phpunit/phpunit"
     }
 }
