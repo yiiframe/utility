@@ -12,8 +12,3 @@ composer.phar
 
 vendor/
 runtime/
-
-autodeploy.log
-web/php_errors.log
-
-env-local.php
