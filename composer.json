@@ -1,0 +1,46 @@
+{
+    "name": "yiiframe/utility",
+    "type": "library",
+    "description": "",
+    "keywords": [],
+    "homepage": "https://github.com/yiiframe/utility",
+    "license": "BSD-3-Clause",
+    "support": {
+        "source": "https://github.com/yiiframe/utility",
+        "issues": "https://github.com/yiiframe/utility/issues",
+        "wiki": "https://github.com/yiiframe/utility"
+    },
+    "require": {
+        "php": ">=7.2.0",
+        "ext-pdo": "*",
+        "ext-dom": "*",
+        "ext-libxml": "*",
+        "ext-simplexml": "*",
+        "ext-json": "*",
+        "yiisoft/yii2": "~2.0.20"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~8.2.0"
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Casoa\\Yii\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Casoa\\Yii\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
+}
