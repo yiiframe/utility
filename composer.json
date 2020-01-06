@@ -22,7 +22,7 @@
         "imangazaliev/didom": "~1.14.1",
         "sabberworm/php-css-parser": "~8.3.0",
         "phpoffice/phpspreadsheet": "~1.8.1 || ~1.10.1",
-        "guzzlehttp/guzzle": "~6.3.3 || ~6.5.3"
+        "guzzlehttp/guzzle": "~6.3.3 || ~6.5.2"
     },
     "require-dev": {
         "yiisoft/yii2-faker": "~2.0.4",
