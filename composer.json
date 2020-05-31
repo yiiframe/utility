@@ -11,7 +11,7 @@
         "wiki": "https://github.com/yiiframe/utility"
     },
     "require": {
-        "php": ">=7.2.0",
+        "php": ">=7.1.0",
         "ext-pdo": "*",
         "ext-dom": "*",
         "ext-libxml": "*",
